@@ -1,3 +1,5 @@
+This repository is adapted from the Ego4D git page. Please consider referring their datatset.
+
 ## Installation
 This code requires Python>=3.7 (this a requirement of pytorch video). If you are using Anaconda, you can create a clean virtual environment with the required Python version with the following command:
 
@@ -99,3 +101,13 @@ Model predictions on the test set can be generated using the following script. S
 # Generate model predictions (outputs.json)
 bash tools/long_term_anticipation/evaluate_forecasting.sh output/
 ```
+
+## Citing VPN
+  @misc{https://doi.org/10.48550/arxiv.2207.00579,
+  doi = {10.48550/ARXIV.2207.00579}, 
+  url = {https://arxiv.org/abs/2207.00579},
+  author = {Das, Srijan and Ryoo, Michael S.},  
+  title = {Video + CLIP Baseline for Ego4D Long-term Action Anticipation},  
+  publisher = {arXiv},
+  year = {2022},  
+  copyright = {Creative Commons Zero v1.0 Universal}}
