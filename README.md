@@ -102,12 +102,12 @@ Model predictions on the test set can be generated using the following script. S
 bash tools/long_term_anticipation/evaluate_forecasting.sh output/
 ```
 
-## Citing VPN
+## Citing CLIP+Baseline
     @misc{das2022CLIP_EGO,
-  doi = {10.48550/ARXIV.2207.00579}, 
-  url = {https://arxiv.org/abs/2207.00579},
-  author = {Das, Srijan and Ryoo, Michael S.},  
-  title = {Video + CLIP Baseline for Ego4D Long-term Action Anticipation},  
-  publisher = {arXiv},
-  year = {2022},  
-  copyright = {Creative Commons Zero v1.0 Universal}}
+        doi = {10.48550/ARXIV.2207.00579}, 
+        url = {https://arxiv.org/abs/2207.00579},
+        author = {Das, Srijan and Ryoo, Michael S.},  
+        title = {Video + CLIP Baseline for Ego4D Long-term Action Anticipation},  
+        publisher = {arXiv},
+        year = {2022}
+    }
