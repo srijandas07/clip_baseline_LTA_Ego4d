@@ -103,7 +103,7 @@ bash tools/long_term_anticipation/evaluate_forecasting.sh output/
 ```
 
 ## Citing VPN
-  @misc{https://doi.org/10.48550/arxiv.2207.00579,
+    @misc{das2022CLIP_EGO,
   doi = {10.48550/ARXIV.2207.00579}, 
   url = {https://arxiv.org/abs/2207.00579},
   author = {Das, Srijan and Ryoo, Michael S.},  
