@@ -1,11 +1,17 @@
 This repository is a direct adaptation from the Ego4D git page. Please consider referring their datatset.
+
 The changes are made in ego4d/lta_models.py
+
 New additions -
+
 Aggregrator: TransformerAggregator_clip (for CLIP_img)
+
              TransformerAggregator_clip_text (for CLIP attention)
+             
 Decoder: MultiHeadDecoder_clip
 
 Encoder_Decoder: ForecastingEncoderDecoder_clip
+
                  ForecastingEncoderDecoder_clip_text
                  
 
